@@ -1,10 +1,10 @@
 // Guarda o app no celular para abrir sem internet na loja. A versão muda a cada build.
-const CACHE = "b-toner-tecnico-202610222048";
+const CACHE = "b-toner-tecnico-202610222104";
 const ARQUIVOS = [
   "./",
   "index.html",
-  "app.js?v=202610222048",
-  "app.css?v=202610222048",
+  "app.js?v=202610222104",
+  "app.css?v=202610222104",
   "manifest.webmanifest",
   "icone.svg",
   "icone-180.png",
