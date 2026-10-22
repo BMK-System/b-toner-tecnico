@@ -12,7 +12,7 @@
       ${It.map(([x,e])=>`<details><summary>${x}</summary><p>${e}</p></details>`).join("")}
     </section>
     <button class="botao botao-grande" data-acao="voltar">Entendi</button>
-    <p class="versao">Vers\xE3o 202610222140</p>
+    <p class="versao">Vers\xE3o 202610222142</p>
   </main>`}function cx(){return B0?`<p class="aviso aviso-${B0.tipo}" role="${B0.tipo==="erro"?"alert":"status"}">${R(B0.texto)}</p>`:""}function Tt(){let x=/iphone|ipad/i.test(navigator.userAgent),e=matchMedia("(display-mode: standalone)").matches;return`${V0("B-Toner T\xE9cnico")}
   <main class="conteudo">
     ${cx()}

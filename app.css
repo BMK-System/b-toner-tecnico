@@ -649,7 +649,7 @@ details ul {
   align-items: center;
   gap: 0 12px;
   padding: 14px 16px;
-  border-left: 5px solid var(--folha);
+  border: 1px solid rgb(30 107 71 / 0.25);
   border-radius: var(--raio);
   background: var(--folha-claro);
 }
