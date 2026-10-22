@@ -615,3 +615,11 @@ details ul {
     transition: none;
   }
 }
+
+.versao {
+  margin: 0;
+  text-align: center;
+  font-family: "Numeros", ui-monospace, monospace;
+  font-size: 0.75rem;
+  color: var(--apagado);
+}
