@@ -85,7 +85,7 @@
     ${gx()}
     <section class="cartao destaque">
       <h1>${e.length} ${e.length===1?"leitura":"leituras"} ${t?"j\xE1 enviadas":"para enviar"}</h1>
-      <p>O app gera um arquivo criptografado, com as fotos, que s\xF3 o B-Toner do escrit\xF3rio abre. Mande pelo WhatsApp ou e-mail para o escrit\xF3rio.</p>
+      <p>O app gera um arquivo protegido, com as leituras e as fotos. Mande esse arquivo pelo WhatsApp ou e-mail para o escrit\xF3rio: voc\xEA n\xE3o precisa fazer mais nada, quem importa no sistema \xE9 o escrit\xF3rio.</p>
       <button class="botao botao-grande" data-acao="gerar">${v0.enviar} ${t?"Enviar de novo":"Gerar arquivo e enviar"}</button>
     </section>
     ${o.length?`<section class="cartao"><h2>Ainda sem leitura</h2>${o.map(r=>`<details><summary>${H(r.nome)}: ${r.faltam.length} ${r.faltam.length===1?"m\xE1quina":"m\xE1quinas"}</summary><ul>${r.faltam.map(E=>`<li>${H(E.descricao)} \xB7 <span class="mono">${H(E.serie)}</span></li>`).join("")}</ul></details>`).join("")}</section>`:'<p class="dica">Todas as m\xE1quinas da rota foram lidas.</p>'}
